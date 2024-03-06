@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.poc.tweet.service.TweetServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-06T10:32:24" hostname="APARP-M-X9K2" time="0.793">
+  <properties/>
+  <testcase name="testAddTweet()" classname="com.poc.tweet.service.TweetServiceTest" time="0.793"/>
+  <system-out><![CDATA[16:02:23.042 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.poc.tweet.service.TweetServiceTest]: TweetServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:02:23.130 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.poc.tweet.TweetApplication for test class com.poc.tweet.service.TweetServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-06T16:02:23.398+05:30  INFO 73986 --- [    Test worker] com.poc.tweet.service.TweetServiceTest   : Starting TweetServiceTest using Java 17.0.2 with PID 73986 (started by aparp in /Users/aparp/IdeaProjects/2nd/tweet)
+2024-03-06T16:02:23.399+05:30  INFO 73986 --- [    Test worker] com.poc.tweet.service.TweetServiceTest   : No active profile set, falling back to 1 default profile: "default"
+2024-03-06T16:02:23.931+05:30  INFO 73986 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-03-06T16:02:23.964+05:30  INFO 73986 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JDBC repository interface.
+2024-03-06T16:02:24.220+05:30  INFO 73986 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-06T16:02:24.274+05:30  INFO 73986 --- [    Test worker] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class org.h2.jdbc.JdbcConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2024-03-06T16:02:24.279+05:30  INFO 73986 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-03-06T16:02:24.281+05:30  INFO 73986 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-06T16:02:24.974+05:30  INFO 73986 --- [    Test worker] com.poc.tweet.service.TweetServiceTest   : Started TweetServiceTest in 1.744 seconds (process running for 2.654)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
