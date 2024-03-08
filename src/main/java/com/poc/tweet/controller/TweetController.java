@@ -23,7 +23,7 @@ import java.util.Optional;
 @CrossOrigin
 @Slf4j
 @Validated
-@RequestMapping(path = {"/api/v1/tweeter/tweet"}, produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(path = {"/api/v1/tweeter/tweets"}, produces = MediaType.APPLICATION_JSON_VALUE)
 public class TweetController {
 
     @Autowired

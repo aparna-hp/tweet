@@ -47,7 +47,7 @@ public class TweetControllerTest {
 
         logger.info("Input Json = " + requestJson);
 
-        mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/tweeter/tweet")
+        mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/tweeter/tweets")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(requestJson))
                 .andExpect(status().isCreated());
